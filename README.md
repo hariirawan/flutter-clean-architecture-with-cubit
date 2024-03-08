@@ -3,18 +3,17 @@
 New project for interview test and implementation clean architecture
 
 ## Project Structure 
+### A typical top-level directory layout
 
-.
-├── ...
 ├── lib                    
-│   ├── cubit              # State Management
-│   ├── data               # Busines Logic (Database, API, LocalStorage)
-|   |  ├── models          # This directory contains the definitions of data models used in the application
-|   |  ├── repositories    # This is where you place classes responsible for managing data resources
-|   |  ├── services        # This directory contains service logic required in the application
-│   ├── presentation       # Handle UI
-│   └── ...                 # etc.
-└── ...
+│   ├── cubit                    # State Management
+│   ├── data                     # Business Logic (Database, API, LocalStorage)
+│   │   ├── models               # Definitions of data models used in the application
+│   │   ├── repositories         # Classes responsible for managing data resources
+│   │   └── services             # Service logic required in the application
+│   ├── presentation             # Handle UI
+│   └── ...                      # etc.
+└── 
 
 
 
