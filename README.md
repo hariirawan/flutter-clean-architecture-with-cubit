@@ -1,16 +1,20 @@
 # cat_facts
 
-A new Flutter project.
+New project for interview test and implementation clean architecture
 
-## Getting Started
+## Project Structure 
 
-This project is a starting point for a Flutter application.
+.
+├── ...
+├── lib                    
+│   ├── cubit              # State Management
+│   ├── data               # Busines Logic (Database, API, LocalStorage)
+|   |  ├── models          # This directory contains the definitions of data models used in the application
+|   |  ├── repositories    # This is where you place classes responsible for managing data resources
+|   |  ├── services        # This directory contains service logic required in the application
+│   ├── presentation       # Handle UI
+│   └── ...                 # etc.
+└── ...
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
